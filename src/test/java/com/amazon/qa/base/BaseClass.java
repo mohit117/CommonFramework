@@ -103,7 +103,7 @@ public class BaseClass {
 			extentLogger.log(Status.SKIP, m);
 		}
 		
-		//driver.quit();
+		driver.quit();
 	}
 
 	//will execute after every class only ONCE when all the tests present in the class are done

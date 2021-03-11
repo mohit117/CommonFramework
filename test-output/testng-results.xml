@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="9" passed="9">
   <reporter-output>
   </reporter-output>
-  <suite name="Framework Design" duration-ms="26834" started-at="2021-03-09T03:06:24Z" finished-at="2021-03-09T03:06:51Z">
+  <suite name="Framework Design" duration-ms="234412" started-at="2021-03-11T10:00:53Z" finished-at="2021-03-11T10:04:47Z">
     <groups>
     </groups>
-    <test name="Test Automation" duration-ms="26834" started-at="2021-03-09T03:06:24Z" finished-at="2021-03-09T03:06:51Z">
+    <test name="Test Automation" duration-ms="234412" started-at="2021-03-11T10:00:53Z" finished-at="2021-03-11T10:04:47Z">
       <class name="com.amazon.qa.tests.HomePageTest">
-        <test-method status="PASS" signature="beforeTestMethod()[pri:0, instance:com.amazon.qa.tests.HomePageTest@b684286]" name="beforeTestMethod" is-config="true" duration-ms="246" started-at="2021-03-09T08:36:24Z" finished-at="2021-03-09T08:36:24Z">
+        <test-method status="PASS" signature="beforeTestMethod()[pri:0, instance:com.amazon.qa.tests.HomePageTest@3f3afe78]" name="beforeTestMethod" is-config="true" duration-ms="261" started-at="2021-03-11T15:30:53Z" finished-at="2021-03-11T15:30:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTestMethod -->
-        <test-method status="PASS" signature="beforeMethodtMethod(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.amazon.qa.tests.HomePageTest@b684286]" name="beforeMethodtMethod" is-config="true" duration-ms="24156" started-at="2021-03-09T08:36:24Z" finished-at="2021-03-09T08:36:48Z">
+        <test-method status="PASS" signature="beforeMethodtMethod(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.amazon.qa.tests.HomePageTest@3f3afe78]" name="beforeMethodtMethod" is-config="true" duration-ms="20633" started-at="2021-03-11T15:30:53Z" finished-at="2021-03-11T15:31:14Z">
           <params>
             <param index="0">
               <value>
@@ -20,37 +20,319 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[public void com.amazon.qa.tests.HomePageTest.validateNavigationToAllOnlineShoppingLinks()]]>
+                <![CDATA[public void com.amazon.qa.tests.HomePageTest.validateAvailabilityOfBagLink()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethodtMethod -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.amazon.qa.tests.HomePageTest@b684286]" name="setUp" is-config="true" duration-ms="61" started-at="2021-03-09T08:36:48Z" finished-at="2021-03-09T08:36:48Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.amazon.qa.tests.HomePageTest@3f3afe78]" name="setUp" is-config="true" duration-ms="54" started-at="2021-03-11T15:31:14Z" finished-at="2021-03-11T15:31:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validateNavigationToAllOnlineShoppingLinks()[pri:0, instance:com.amazon.qa.tests.HomePageTest@b684286]" name="validateNavigationToAllOnlineShoppingLinks" duration-ms="1194" started-at="2021-03-09T08:36:48Z" finished-at="2021-03-09T08:36:50Z">
+        <test-method status="PASS" signature="validateAvailabilityOfBagLink()[pri:0, instance:com.amazon.qa.tests.HomePageTest@3f3afe78]" name="validateAvailabilityOfBagLink" duration-ms="342" started-at="2021-03-11T15:31:14Z" finished-at="2021-03-11T15:31:14Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateNavigationToAllOnlineShoppingLinks -->
-        <test-method status="PASS" signature="afterMethodMethod(org.testng.ITestResult)[pri:0, instance:com.amazon.qa.tests.HomePageTest@b684286]" name="afterMethodMethod" is-config="true" duration-ms="6" started-at="2021-03-09T08:36:50Z" finished-at="2021-03-09T08:36:50Z">
+        </test-method> <!-- validateAvailabilityOfBagLink -->
+        <test-method status="PASS" signature="afterMethodMethod(org.testng.ITestResult)[pri:0, instance:com.amazon.qa.tests.HomePageTest@3f3afe78]" name="afterMethodMethod" is-config="true" duration-ms="826" started-at="2021-03-11T15:31:14Z" finished-at="2021-03-11T15:31:15Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=validateNavigationToAllOnlineShoppingLinks status=SUCCESS method=HomePageTest.validateNavigationToAllOnlineShoppingLinks()[pri:0, instance:com.amazon.qa.tests.HomePageTest@b684286] output={null}]]]>
+                <![CDATA[[TestResult name=validateAvailabilityOfBagLink status=SUCCESS method=HomePageTest.validateAvailabilityOfBagLink()[pri:0, instance:com.amazon.qa.tests.HomePageTest@3f3afe78] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodMethod -->
-        <test-method status="PASS" signature="afterTestMethod()[pri:0, instance:com.amazon.qa.tests.HomePageTest@b684286]" name="afterTestMethod" is-config="true" duration-ms="1150" started-at="2021-03-09T08:36:50Z" finished-at="2021-03-09T08:36:51Z">
+        <test-method status="PASS" signature="beforeMethodtMethod(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.amazon.qa.tests.HomePageTest@3f3afe78]" name="beforeMethodtMethod" is-config="true" duration-ms="19004" started-at="2021-03-11T15:31:15Z" finished-at="2021-03-11T15:31:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.amazon.qa.tests.HomePageTest.validateAvailabilityOfWishListLink()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodtMethod -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.amazon.qa.tests.HomePageTest@3f3afe78]" name="setUp" is-config="true" duration-ms="1" started-at="2021-03-11T15:31:34Z" finished-at="2021-03-11T15:31:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateAvailabilityOfWishListLink()[pri:0, instance:com.amazon.qa.tests.HomePageTest@3f3afe78]" name="validateAvailabilityOfWishListLink" duration-ms="147" started-at="2021-03-11T15:31:34Z" finished-at="2021-03-11T15:31:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAvailabilityOfWishListLink -->
+        <test-method status="PASS" signature="afterMethodMethod(org.testng.ITestResult)[pri:0, instance:com.amazon.qa.tests.HomePageTest@3f3afe78]" name="afterMethodMethod" is-config="true" duration-ms="894" started-at="2021-03-11T15:31:34Z" finished-at="2021-03-11T15:31:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateAvailabilityOfWishListLink status=SUCCESS method=HomePageTest.validateAvailabilityOfWishListLink()[pri:0, instance:com.amazon.qa.tests.HomePageTest@3f3afe78] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodMethod -->
+        <test-method status="PASS" signature="beforeMethodtMethod(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.amazon.qa.tests.HomePageTest@3f3afe78]" name="beforeMethodtMethod" is-config="true" duration-ms="19947" started-at="2021-03-11T15:31:35Z" finished-at="2021-03-11T15:31:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.amazon.qa.tests.HomePageTest.validateFooterLinksSizeFromHomePage()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodtMethod -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.amazon.qa.tests.HomePageTest@3f3afe78]" name="setUp" is-config="true" duration-ms="2" started-at="2021-03-11T15:31:55Z" finished-at="2021-03-11T15:31:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateFooterLinksSizeFromHomePage()[pri:0, instance:com.amazon.qa.tests.HomePageTest@3f3afe78]" name="validateFooterLinksSizeFromHomePage" duration-ms="49" started-at="2021-03-11T15:31:55Z" finished-at="2021-03-11T15:31:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateFooterLinksSizeFromHomePage -->
+        <test-method status="PASS" signature="afterMethodMethod(org.testng.ITestResult)[pri:0, instance:com.amazon.qa.tests.HomePageTest@3f3afe78]" name="afterMethodMethod" is-config="true" duration-ms="865" started-at="2021-03-11T15:31:55Z" finished-at="2021-03-11T15:31:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateFooterLinksSizeFromHomePage status=SUCCESS method=HomePageTest.validateFooterLinksSizeFromHomePage()[pri:0, instance:com.amazon.qa.tests.HomePageTest@3f3afe78] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodMethod -->
+        <test-method status="PASS" signature="beforeMethodtMethod(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.amazon.qa.tests.HomePageTest@3f3afe78]" name="beforeMethodtMethod" is-config="true" duration-ms="19457" started-at="2021-03-11T15:31:56Z" finished-at="2021-03-11T15:32:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.amazon.qa.tests.HomePageTest.validateNavigationToAllOnlineShoppingLinksFromHomePage()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodtMethod -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.amazon.qa.tests.HomePageTest@3f3afe78]" name="setUp" is-config="true" duration-ms="3" started-at="2021-03-11T15:32:15Z" finished-at="2021-03-11T15:32:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateNavigationToAllOnlineShoppingLinksFromHomePage()[pri:0, instance:com.amazon.qa.tests.HomePageTest@3f3afe78]" name="validateNavigationToAllOnlineShoppingLinksFromHomePage" duration-ms="4246" started-at="2021-03-11T15:32:15Z" finished-at="2021-03-11T15:32:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateNavigationToAllOnlineShoppingLinksFromHomePage -->
+        <test-method status="PASS" signature="afterMethodMethod(org.testng.ITestResult)[pri:0, instance:com.amazon.qa.tests.HomePageTest@3f3afe78]" name="afterMethodMethod" is-config="true" duration-ms="1138" started-at="2021-03-11T15:32:20Z" finished-at="2021-03-11T15:32:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateNavigationToAllOnlineShoppingLinksFromHomePage status=SUCCESS method=HomePageTest.validateNavigationToAllOnlineShoppingLinksFromHomePage()[pri:0, instance:com.amazon.qa.tests.HomePageTest@3f3afe78] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodMethod -->
+        <test-method status="PASS" signature="beforeMethodtMethod(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.amazon.qa.tests.HomePageTest@3f3afe78]" name="beforeMethodtMethod" is-config="true" duration-ms="21855" started-at="2021-03-11T15:32:21Z" finished-at="2021-03-11T15:32:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.amazon.qa.tests.HomePageTest.validateNavigationToCasualShirtCategory()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodtMethod -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.amazon.qa.tests.HomePageTest@3f3afe78]" name="setUp" is-config="true" duration-ms="1" started-at="2021-03-11T15:32:43Z" finished-at="2021-03-11T15:32:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateNavigationToCasualShirtCategory()[pri:0, instance:com.amazon.qa.tests.HomePageTest@3f3afe78]" name="validateNavigationToCasualShirtCategory" duration-ms="1038" started-at="2021-03-11T15:32:43Z" finished-at="2021-03-11T15:32:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateNavigationToCasualShirtCategory -->
+        <test-method status="PASS" signature="afterMethodMethod(org.testng.ITestResult)[pri:0, instance:com.amazon.qa.tests.HomePageTest@3f3afe78]" name="afterMethodMethod" is-config="true" duration-ms="1288" started-at="2021-03-11T15:32:44Z" finished-at="2021-03-11T15:32:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateNavigationToCasualShirtCategory status=SUCCESS method=HomePageTest.validateNavigationToCasualShirtCategory()[pri:0, instance:com.amazon.qa.tests.HomePageTest@3f3afe78] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodMethod -->
+        <test-method status="PASS" signature="beforeMethodtMethod(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.amazon.qa.tests.HomePageTest@3f3afe78]" name="beforeMethodtMethod" is-config="true" duration-ms="20327" started-at="2021-03-11T15:32:45Z" finished-at="2021-03-11T15:33:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.amazon.qa.tests.HomePageTest.validateNavigationToMenCategory()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodtMethod -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.amazon.qa.tests.HomePageTest@3f3afe78]" name="setUp" is-config="true" duration-ms="0" started-at="2021-03-11T15:33:05Z" finished-at="2021-03-11T15:33:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateNavigationToMenCategory()[pri:0, instance:com.amazon.qa.tests.HomePageTest@3f3afe78]" name="validateNavigationToMenCategory" duration-ms="5303" started-at="2021-03-11T15:33:05Z" finished-at="2021-03-11T15:33:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateNavigationToMenCategory -->
+        <test-method status="PASS" signature="afterMethodMethod(org.testng.ITestResult)[pri:0, instance:com.amazon.qa.tests.HomePageTest@3f3afe78]" name="afterMethodMethod" is-config="true" duration-ms="1086" started-at="2021-03-11T15:33:11Z" finished-at="2021-03-11T15:33:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateNavigationToMenCategory status=SUCCESS method=HomePageTest.validateNavigationToMenCategory()[pri:0, instance:com.amazon.qa.tests.HomePageTest@3f3afe78] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodMethod -->
+        <test-method status="PASS" signature="beforeMethodtMethod(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.amazon.qa.tests.HomePageTest@3f3afe78]" name="beforeMethodtMethod" is-config="true" duration-ms="28456" started-at="2021-03-11T15:33:12Z" finished-at="2021-03-11T15:33:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.amazon.qa.tests.HomePageTest.validatePageTitle()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodtMethod -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.amazon.qa.tests.HomePageTest@3f3afe78]" name="setUp" is-config="true" duration-ms="1" started-at="2021-03-11T15:33:40Z" finished-at="2021-03-11T15:33:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validatePageTitle()[pri:0, instance:com.amazon.qa.tests.HomePageTest@3f3afe78]" name="validatePageTitle" duration-ms="126" started-at="2021-03-11T15:33:40Z" finished-at="2021-03-11T15:33:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePageTitle -->
+        <test-method status="PASS" signature="afterMethodMethod(org.testng.ITestResult)[pri:0, instance:com.amazon.qa.tests.HomePageTest@3f3afe78]" name="afterMethodMethod" is-config="true" duration-ms="2560" started-at="2021-03-11T15:33:40Z" finished-at="2021-03-11T15:33:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatePageTitle status=SUCCESS method=HomePageTest.validatePageTitle()[pri:0, instance:com.amazon.qa.tests.HomePageTest@3f3afe78] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodMethod -->
+        <test-method status="PASS" signature="beforeMethodtMethod(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.amazon.qa.tests.HomePageTest@3f3afe78]" name="beforeMethodtMethod" is-config="true" duration-ms="24406" started-at="2021-03-11T15:33:43Z" finished-at="2021-03-11T15:34:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.amazon.qa.tests.HomePageTest.verifyNavigationToLoginPage()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodtMethod -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.amazon.qa.tests.HomePageTest@3f3afe78]" name="setUp" is-config="true" duration-ms="1" started-at="2021-03-11T15:34:07Z" finished-at="2021-03-11T15:34:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyNavigationToLoginPage()[pri:0, instance:com.amazon.qa.tests.HomePageTest@3f3afe78]" name="verifyNavigationToLoginPage" duration-ms="5195" started-at="2021-03-11T15:34:07Z" finished-at="2021-03-11T15:34:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNavigationToLoginPage -->
+        <test-method status="PASS" signature="afterMethodMethod(org.testng.ITestResult)[pri:0, instance:com.amazon.qa.tests.HomePageTest@3f3afe78]" name="afterMethodMethod" is-config="true" duration-ms="1199" started-at="2021-03-11T15:34:12Z" finished-at="2021-03-11T15:34:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyNavigationToLoginPage status=SUCCESS method=HomePageTest.verifyNavigationToLoginPage()[pri:0, instance:com.amazon.qa.tests.HomePageTest@3f3afe78] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodMethod -->
+        <test-method status="PASS" signature="afterTestMethod()[pri:0, instance:com.amazon.qa.tests.HomePageTest@3f3afe78]" name="afterTestMethod" is-config="true" duration-ms="2673" started-at="2021-03-11T15:34:45Z" finished-at="2021-03-11T15:34:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTestMethod -->
       </class> <!-- com.amazon.qa.tests.HomePageTest -->
+      <class name="com.amazon.qa.tests.CasualShirtPageTest">
+        <test-method status="PASS" signature="beforeMethodtMethod(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.amazon.qa.tests.CasualShirtPageTest@7f63425a]" name="beforeMethodtMethod" is-config="true" duration-ms="20895" started-at="2021-03-11T15:34:14Z" finished-at="2021-03-11T15:34:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.amazon.qa.tests.CasualShirtPageTest.validatePageUrl()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodtMethod -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.amazon.qa.tests.CasualShirtPageTest@7f63425a]" name="setUp" is-config="true" duration-ms="0" started-at="2021-03-11T15:34:35Z" finished-at="2021-03-11T15:34:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validatePageUrl()[pri:0, instance:com.amazon.qa.tests.CasualShirtPageTest@7f63425a]" name="validatePageUrl" duration-ms="8038" started-at="2021-03-11T15:34:35Z" finished-at="2021-03-11T15:34:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePageUrl -->
+        <test-method status="PASS" signature="afterMethodMethod(org.testng.ITestResult)[pri:0, instance:com.amazon.qa.tests.CasualShirtPageTest@7f63425a]" name="afterMethodMethod" is-config="true" duration-ms="2022" started-at="2021-03-11T15:34:43Z" finished-at="2021-03-11T15:34:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatePageUrl status=SUCCESS method=CasualShirtPageTest.validatePageUrl()[pri:0, instance:com.amazon.qa.tests.CasualShirtPageTest@7f63425a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodMethod -->
+      </class> <!-- com.amazon.qa.tests.CasualShirtPageTest -->
     </test> <!-- Test Automation -->
   </suite> <!-- Framework Design -->
 </testng-results>

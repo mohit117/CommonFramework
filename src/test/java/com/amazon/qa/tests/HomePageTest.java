@@ -28,7 +28,7 @@ public class HomePageTest extends BaseClass{
 		hpObj = new HomePage();
 	}
 	
-	/*@Test
+	@Test
 	public void validatePageTitle()
 	{
 		Assert.assertEquals("Online Shopping for Women, Men, Kids Fashion & Lifestyle - Myntra", hpObj.getPageTitle());
@@ -60,31 +60,29 @@ public class HomePageTest extends BaseClass{
 	@Test
 	public void validateNavigationToCasualShirtCategory()
 	{
-		casualObj = hpObj.navigateToCasualShirts();
+		casualObj = topMenuObj.navigateToCasualShirts();
 		Assert.assertEquals("Casual Shirts for Men - Buy Casual Shirts for Men Online in India | Myntra", casualObj.getPageTitle());
 		
 	}
-*/	
-	/*@Test
+	
+	@Test
 	public void validateNavigationToMenCategory()
 	{
 		extentLogger.info("Navigating to mens category");
 		topMenuObj.goToMenCategory();
 		extentLogger.info("Validating current url");
 		Assert.assertEquals("https://www.myntra.com/shop/men", hpObj.getCurrentPageUrl());
-	}*/
+	}
 	
-	/*@Test
+	@Test
 	public void validateFooterLinksSizeFromHomePage()
 	{
 		ArrayList<WebElement> onlineLinks = (ArrayList<WebElement>) footerObj.getAllFooterLinksForOnlineShopping();
 		Assert.assertEquals(7, onlineLinks.size()); //validating total url in footer	
-	}*/
+	}
 	
 	@Test
 	public void validateNavigationToAllOnlineShoppingLinksFromHomePage()
-	
-	
 	{
 	
 		footerObj.navigateToAllOnlineShoppingLinks();
