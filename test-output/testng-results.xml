@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Framework Design" duration-ms="26834" started-at="2021-03-09T03:06:24Z" finished-at="2021-03-09T03:06:51Z">
+    <groups>
+    </groups>
+    <test name="Test Automation" duration-ms="26834" started-at="2021-03-09T03:06:24Z" finished-at="2021-03-09T03:06:51Z">
+      <class name="com.amazon.qa.tests.HomePageTest">
+        <test-method status="PASS" signature="beforeTestMethod()[pri:0, instance:com.amazon.qa.tests.HomePageTest@b684286]" name="beforeTestMethod" is-config="true" duration-ms="246" started-at="2021-03-09T08:36:24Z" finished-at="2021-03-09T08:36:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestMethod -->
+        <test-method status="PASS" signature="beforeMethodtMethod(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.amazon.qa.tests.HomePageTest@b684286]" name="beforeMethodtMethod" is-config="true" duration-ms="24156" started-at="2021-03-09T08:36:24Z" finished-at="2021-03-09T08:36:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.amazon.qa.tests.HomePageTest.validateNavigationToAllOnlineShoppingLinks()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodtMethod -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.amazon.qa.tests.HomePageTest@b684286]" name="setUp" is-config="true" duration-ms="61" started-at="2021-03-09T08:36:48Z" finished-at="2021-03-09T08:36:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateNavigationToAllOnlineShoppingLinks()[pri:0, instance:com.amazon.qa.tests.HomePageTest@b684286]" name="validateNavigationToAllOnlineShoppingLinks" duration-ms="1194" started-at="2021-03-09T08:36:48Z" finished-at="2021-03-09T08:36:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateNavigationToAllOnlineShoppingLinks -->
+        <test-method status="PASS" signature="afterMethodMethod(org.testng.ITestResult)[pri:0, instance:com.amazon.qa.tests.HomePageTest@b684286]" name="afterMethodMethod" is-config="true" duration-ms="6" started-at="2021-03-09T08:36:50Z" finished-at="2021-03-09T08:36:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateNavigationToAllOnlineShoppingLinks status=SUCCESS method=HomePageTest.validateNavigationToAllOnlineShoppingLinks()[pri:0, instance:com.amazon.qa.tests.HomePageTest@b684286] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodMethod -->
+        <test-method status="PASS" signature="afterTestMethod()[pri:0, instance:com.amazon.qa.tests.HomePageTest@b684286]" name="afterTestMethod" is-config="true" duration-ms="1150" started-at="2021-03-09T08:36:50Z" finished-at="2021-03-09T08:36:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestMethod -->
+      </class> <!-- com.amazon.qa.tests.HomePageTest -->
+    </test> <!-- Test Automation -->
+  </suite> <!-- Framework Design -->
+</testng-results>

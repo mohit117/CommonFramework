@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Framework Design]" parallel="none">
+  <parameter name="browserName" value="chrome"/>
+  <listeners>
+    <listener class-name="com.amazon.qa.utilities.SuitListener"/>
+  </listeners>
+  <test name="Test Automation(failed)" parallel="none">
+    <parameter name="browserName" value="chrome"/>
+    <classes>
+      <class name="com.amazon.qa.tests.HomePageTest">
+        <methods>
+          <include name="beforeTestMethod"/>
+          <include name="afterMethodMethod"/>
+          <include name="validateFooterLinksSize"/>
+          <include name="beforeMethodtMethod"/>
+          <include name="setUp"/>
+          <include name="afterTestMethod"/>
+        </methods>
+      </class> <!-- com.amazon.qa.tests.HomePageTest -->
+    </classes>
+  </test> <!-- Test Automation(failed) -->
+</suite> <!-- Failed suite [Framework Design] -->

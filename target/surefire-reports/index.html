@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Framework_Design">
+              <span class="suite-name border-passed">Framework Design</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Framework_Design">
+                    <span>D:\Selenium\Selenium_Handson\com.commonFramework\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Framework_Design">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Framework_Design">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Framework_Design">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Framework_Design">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Framework_Design">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Framework_Design">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">6 methods,   6 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Framework_Design" class="hide-methods passed suite-Framework_Design"> (hide)</a> <!-- hide-methods passed suite-Framework_Design -->
+                      <a href="#" panel-name="suite-Framework_Design" class="show-methods passed suite-Framework_Design"> (show)</a> <!-- show-methods passed suite-Framework_Design -->
+                    </span>
+                    <div class="method-list-content passed suite-Framework_Design">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Framework_Design" title="com.amazon.qa.tests.HomePageTest" hash-for-method="validateAvailabilityOfBagLink">validateAvailabilityOfBagLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Framework_Design" title="com.amazon.qa.tests.HomePageTest" hash-for-method="validateAvailabilityOfWishListLink">validateAvailabilityOfWishListLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Framework_Design" title="com.amazon.qa.tests.HomePageTest" hash-for-method="validateNavigationToCasualShirtCategory">validateNavigationToCasualShirtCategory</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Framework_Design" title="com.amazon.qa.tests.HomePageTest" hash-for-method="validatePageTitle">validatePageTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Framework_Design" title="com.amazon.qa.tests.CasualShirtPageTest" hash-for-method="validatePageUrl">validatePageUrl</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Framework_Design" title="com.amazon.qa.tests.HomePageTest" hash-for-method="verifyNavigationToLoginPage">verifyNavigationToLoginPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Framework_Design -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Framework_Design" class="panel Framework_Design">
+          <div class="suite-Framework_Design-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.amazon.qa.tests.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateAvailabilityOfBagLink">
+                  </a> <!-- validateAvailabilityOfBagLink -->
+                  <span class="method-name">validateAvailabilityOfBagLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateAvailabilityOfWishListLink">
+                  </a> <!-- validateAvailabilityOfWishListLink -->
+                  <span class="method-name">validateAvailabilityOfWishListLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateNavigationToCasualShirtCategory">
+                  </a> <!-- validateNavigationToCasualShirtCategory -->
+                  <span class="method-name">validateNavigationToCasualShirtCategory</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validatePageTitle">
+                  </a> <!-- validatePageTitle -->
+                  <span class="method-name">validatePageTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyNavigationToLoginPage">
+                  </a> <!-- verifyNavigationToLoginPage -->
+                  <span class="method-name">verifyNavigationToLoginPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Framework_Design-class-passed -->
+          <div class="suite-Framework_Design-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.amazon.qa.tests.CasualShirtPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validatePageUrl">
+                  </a> <!-- validatePageUrl -->
+                  <span class="method-name">validatePageUrl</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Framework_Design-class-passed -->
+        </div> <!-- panel Framework_Design -->
+        <div panel-name="test-xml-Framework_Design" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\Selenium\Selenium_Handson\com.commonFramework\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Framework Design&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.amazon.qa.utilities.SuitListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Test Automation&quot;&gt;
+    &lt;parameter name=&quot;browserName&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.amazon.qa.tests.HomePageTest&quot;/&gt;
+      &lt;class name=&quot;com.amazon.qa.tests.CasualShirtPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test Automation --&gt;
+&lt;/suite&gt; &lt;!-- Framework Design --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Framework_Design" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Framework Design</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test Automation (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Framework_Design" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Framework Design</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Framework_Design" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Framework Design</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Framework_Design');
+function tableData_Framework_Design() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(6);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'validatePageUrl')
+data.setCell(0, 2, 'com.amazon.qa.tests.CasualShirtPageTest')
+data.setCell(0, 3, 14575);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyNavigationToLoginPage')
+data.setCell(1, 2, 'com.amazon.qa.tests.HomePageTest')
+data.setCell(1, 3, 10437);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'validateNavigationToCasualShirtCategory')
+data.setCell(2, 2, 'com.amazon.qa.tests.HomePageTest')
+data.setCell(2, 3, 9397);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'validateAvailabilityOfBagLink')
+data.setCell(3, 2, 'com.amazon.qa.tests.HomePageTest')
+data.setCell(3, 3, 767);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'validateAvailabilityOfWishListLink')
+data.setCell(4, 2, 'com.amazon.qa.tests.HomePageTest')
+data.setCell(4, 3, 79);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'validatePageTitle')
+data.setCell(5, 2, 'com.amazon.qa.tests.HomePageTest')
+data.setCell(5, 3, 12);
+window.suiteTableData['Framework_Design']= { tableData: data, tableDiv: 'times-div-Framework_Design'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 35 seconds</span>
+              <div id="times-div-Framework_Design">
+              </div> <!-- times-div-Framework_Design -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Framework_Design" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Framework Design</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Framework_Design" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">2 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.amazon.qa.tests.CasualShirtPageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">beforeTestMethod</span>
+                <br/>
+                <span class="ignored-method-name">afterTestMethod</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Framework_Design" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.amazon.qa.tests.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTestMethod</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethodtMethod(chrome, public void com.amazon.qa.tests.HomePageTest.validateAvailabilityOfBagLink())</span>
+                <span class="method-start">335 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">39019 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateAvailabilityOfBagLink</span>
+                <span class="method-start">39175 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethodMethod([TestResult name=validateAvailabilityOfBagLink status=SUCCESS method=HomePageTest.validateAvailabili...)</span>
+                <span class="method-start">39943 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethodtMethod(chrome, public void com.amazon.qa.tests.HomePageTest.validateAvailabilityOfWishListLink())</span>
+                <span class="method-start">41132 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">63810 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateAvailabilityOfWishListLink</span>
+                <span class="method-start">63811 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethodMethod([TestResult name=validateAvailabilityOfWishListLink status=SUCCESS method=HomePageTest.validateAvail...)</span>
+                <span class="method-start">63890 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethodtMethod(chrome, public void com.amazon.qa.tests.HomePageTest.validateNavigationToCasualShirtCategory())</span>
+                <span class="method-start">65593 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">95396 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateNavigationToCasualShirtCategory</span>
+                <span class="method-start">95400 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethodMethod([TestResult name=validateNavigationToCasualShirtCategory status=SUCCESS method=HomePageTest.validate...)</span>
+                <span class="method-start">104798 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethodtMethod(chrome, public void com.amazon.qa.tests.HomePageTest.validatePageTitle())</span>
+                <span class="method-start">106172 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">129756 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validatePageTitle</span>
+                <span class="method-start">129757 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethodMethod([TestResult name=validatePageTitle status=SUCCESS method=HomePageTest.validatePageTitle()[pri:0, ins...)</span>
+                <span class="method-start">129769 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethodtMethod(chrome, public void com.amazon.qa.tests.HomePageTest.verifyNavigationToLoginPage())</span>
+                <span class="method-start">131253 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">151269 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyNavigationToLoginPage</span>
+                <span class="method-start">151270 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethodMethod([TestResult name=verifyNavigationToLoginPage status=SUCCESS method=HomePageTest.verifyNavigationToLo...)</span>
+                <span class="method-start">161707 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.amazon.qa.tests.CasualShirtPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethodtMethod(chrome, public void com.amazon.qa.tests.CasualShirtPageTest.validatePageUrl())</span>
+                <span class="method-start">162704 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">183660 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validatePageUrl</span>
+                <span class="method-start">183661 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethodMethod([TestResult name=validatePageUrl status=SUCCESS method=CasualShirtPageTest.validatePageUrl()[pri:0, ...)</span>
+                <span class="method-start">198236 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.amazon.qa.tests.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTestMethod</span>
+                <span class="method-start">199970 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
